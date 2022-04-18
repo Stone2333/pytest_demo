@@ -1,0 +1,24 @@
+cases_info:
+  -
+    cases_name: app登录
+    url: login
+    method:
+
+cases_data:
+  -
+    title : "正常登陆"
+    request_data:
+      username: "11111111111"
+      password: "1"
+    check_data:
+      code: 200
+      msg: "success"
+  -
+    title : "密码错误"
+    request_data:
+      username: "11111111111"
+      password: "2"
+    check_data:
+      code: 4000
+      msg: "用户名或密码错误"
+

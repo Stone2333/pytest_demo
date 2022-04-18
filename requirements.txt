@@ -1,0 +1,4 @@
+allure-pytest==2.9.45
+jsonpath==0.82
+pytest==7.1.1
+PyYAML==6.0
